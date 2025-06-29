@@ -1,3 +1,6 @@
+# tinkup GUI 
+is graphical frontend for tinkup to mimic windows version of Retrotink update tool.
+
 # tinkup
 
 A multiplatform utility for performing firmware updates on the RetroTINK
@@ -49,7 +52,7 @@ command line without needing to specify its absolute path.
 
 Install with Python's package manager pip from a command line:
 
-`python3 -m pip install pyserial`
+`python3 -m pip install pyserial pillow`
 
 Your system might have Python 3 installed simply as `python` rather than
 `python3`, so try that if `python3` is not found. If neither are found, please
@@ -85,10 +88,10 @@ command (substitute your username for "youruser") and then reboot:
    correct button on the RetroTINK to put it in update mode. Details about this
 procedure can be seen on [YouTube](https://www.youtube.com/watch?v=Bva0JXLoq7E).
 
-3. Run tinkup.py with a path to your firmware hex file specified as the only
+3. Run tinkup_GUI.py with a path to your firmware hex file specified as the only
 argument:
 
-`python3 tinkup.py firmware.hex`
+`python3 tinkup_GUI.py`
 
 As with the pySerial installation, if your system has installed Python 3 simply
 named `python`, use that instead of `python3`.
