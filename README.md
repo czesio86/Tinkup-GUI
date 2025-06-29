@@ -1,6 +1,10 @@
 # tinkup GUI 
 is graphical frontend for tinkup to mimic windows version of Retrotink update tool.
 
+![screen](https://github.com/user-attachments/assets/ec413db0-613a-4cc8-b924-cccfd36c3d26)
+
+![screen_in_progress](https://github.com/user-attachments/assets/a38ccca7-5307-4170-8720-b11bda3597b9)
+
 # tinkup
 
 A multiplatform utility for performing firmware updates on the RetroTINK
